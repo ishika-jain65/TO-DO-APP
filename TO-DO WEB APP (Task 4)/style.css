@@ -1,0 +1,42 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.task.completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.task .edit-btn {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.task .delete-btn {
+    margin-left: 10px;
+    cursor: pointer;
+    color: red; /* corrected here */
+}
+
+.task .due-date {
+    font-size: 12px;
+    color: #666;
+}
